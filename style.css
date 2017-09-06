@@ -1,0 +1,44 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+}
+.summary {
+    font-size: 20px;
+    border-left: 5px solid #424242;
+    padding: 10px;
+}
+.summary h1 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.block {
+    min-width: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+input, select {
+    width: 40px;
+    font-size: 20px;
+}
+.clear {
+    clear: both;
+}
+sub {
+    font-size: 70%;
+}
+.sign {
+    font-weight: bold;
+    cursor: pointer;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.find_min_max {
+    cursor: pointer;
+}
+.sign:hover, .find_min_max:hover {
+    color: red;
+}
